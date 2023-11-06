@@ -1,0 +1,12 @@
+<div class="container">
+    <div>
+        Username: <input type="text" name="username" [(ngModel)]="username">
+        Password: <input type="password" name="password" [(ngModel)]="password">
+    </div>
+    <div>
+        <button (click)="authenticateUser()" class="btn btn-success">Login</button>
+    </div>
+    <div>
+        <button (click)="reDirectToHome()" class="btn btn-success">Home</button>
+    </div>
+</div>
